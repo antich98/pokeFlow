@@ -1,0 +1,11 @@
+.sizeImg-evolucion{
+    width: 180px;
+    height: 180px;
+}
+
+@media all and (min-width:768px){
+    .sizeImg-evolucion{
+        width: 100px;
+        height: 100px;
+    }
+}
