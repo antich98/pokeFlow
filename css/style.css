@@ -7,6 +7,14 @@ main{
     margin-top: 10px;
 }
 
+.navbar-nav > li > .dropdown-menu {
+    background-color: #dc3545;
+}
+
+.navbar-nav > li > .dropdown-menu > li > .dropdown-item:hover{
+    background-color: #c52e3d;
+}
+
 @media all and (min-width:768px){
     .sizeImg-evolucion{
         width: 100px;
