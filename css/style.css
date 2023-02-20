@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 .banner{
         height: 500px;
         object-fit: cover;
     }
+=======
+*{
+    margin: 0;
+    padding: 0;
+}
+>>>>>>> 8e1c8b7411b70f0a27bc1e42f8294c51044a863a
