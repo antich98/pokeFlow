@@ -3,6 +3,10 @@
     height: 180px;
 }
 
+main{
+    margin-top: 10px;
+}
+
 @media all and (min-width:768px){
     .sizeImg-evolucion{
         width: 100px;
