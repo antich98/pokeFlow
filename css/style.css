@@ -1,11 +1,29 @@
-<<<<<<< HEAD
 .banner{
-        height: 500px;
+        height: 400px;
         object-fit: cover;
     }
-=======
 *{
     margin: 0;
     padding: 0;
 }
->>>>>>> 8e1c8b7411b70f0a27bc1e42f8294c51044a863a
+.sizeImg-evolucion{
+    width: 180px;
+    height: 180px;
+}
+/* Cards de página principal */
+.morado{
+    background-color: blueviolet;
+}
+.naranja{
+    background-color: orange;
+}
+.volador{
+    background-color:rgba(211, 173, 116, 0.9);
+}
+
+@media all and (min-width:768px){
+    .sizeImg-evolucion{
+        width: 100px;
+        height: 100px;
+    }
+}
