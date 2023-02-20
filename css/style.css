@@ -3,6 +3,14 @@
     height: 180px;
 }
 
+.navbar-nav > li > .dropdown-menu {
+    background-color: #dc3545;
+}
+
+.navbar-nav > li > .dropdown-menu > li > .dropdown-item:hover{
+    background-color: #c52e3d;
+}
+
 .bg-error404{
     background-image: url(../img/error.jpg);
     height: 100vh;
