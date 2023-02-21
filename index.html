@@ -13,6 +13,292 @@
     <title>pokeFlow</title>
 </head>
 <body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">Pokedex</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ps-lg-3" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Categorías
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item text-light" href="./pages/error404.html">Primera Generación</a></li>
+                <li><a class="dropdown-item text-light" href="./pages/error404.html">Segunda Generación</a></li>
+                <li><a class="dropdown-item text-light" href="./pages/error404.html">Tercera Generación</a></li>
+                <li><a class="dropdown-item text-light" href="./pages/error404.html">Cuarta Generación</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search" action="./pages/error404.html">
+            <input class="form-control me-2" type="search" placeholder="Buscar un pokémon" aria-label="Search" maxlength="25">
+            <button class="btn btn-outline-light" type="submit"><i class="bi bi-search"></i></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+    <main class="container">
+        <section id="bannerPrincipal" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#bannerPrincipal"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#bannerPrincipal"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#bannerPrincipal"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./img/pokedex.webp"
+                  class="d-block w-100 banner"
+                  alt="Pokedex"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="/img/ash.webp"
+                  class="d-block w-100 banner"
+                  alt="Ash y Pikachu"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./img/pichu.webp"
+                  class="d-block w-100 banner"
+                  alt="Tres pichus"
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#bannerPrincipal"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#bannerPrincipal"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#bannerPrincipal"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+        </section>
+        <p>Toda la información fue obtenida de <a href="https://www.pokemon.com/el/pokedex">https://www.pokemon.com/el/pokedex</a></p>
+        <section class="row">
+            <aside class="column-md-6 col-lg-3 mb-3">
+                <article class="card">
+                    <img src="./img/001.png" class="card-img-top" alt="Bulbasaur">
+                    <div class="card-body">
+                        <p class="card-text">N.°001</p>  
+                      <h5 class="card-title">Bulbasaur</h5>
+                      <span class="badge rounded-pill text-bg-success">Planta</span>
+                      <span class="badge rounded-pill morado">Veneno</span>
+                      <br>
+                      <a class="btn btn-primary mt-2" href="./pages/error404.html">Ver más</a>
+                    </div>  
+                </article> 
+            </aside>
+            <aside class="column-md-6 col-lg-3 mb-3">
+                <article class="card">
+                    <img src="./img/002.png" class="card-img-top" alt="Ivysaur">
+                    <div class="card-body">
+                        <p class="card-text">N.°002</p>  
+                      <h5 class="card-title">Ivysaur</h5>
+                      <span class="badge rounded-pill text-bg-success">Planta</span>
+                      <span class="badge rounded-pill morado">Veneno</span>
+                      <br>
+                      <a class="btn btn-primary mt-2" href="./pages/error404.html">Ver más</a>
+                    </div>  
+                </article> 
+            </aside>            
+            <aside class="column-md-6 col-lg-3 mb-3">
+                <article class="card">
+                    <img src="./img/003.png" class="card-img-top" alt="Venusaur">
+                    <div class="card-body">
+                        <p class="card-text">N.°003</p>  
+                      <h5 class="card-title">Venusaur</h5>
+                      <span class="badge rounded-pill text-bg-success">Planta</span>
+                      <span class="badge rounded-pill morado">Veneno</span>
+                      <br>
+                      <a class="btn btn-primary mt-2" href="./pages/error404.html">Ver más</a>
+                    </div>  
+                </article> 
+            </aside>            
+            <aside class="column-md-6 col-lg-3 mb-3">
+                <article class="card">
+                    <img src="./img/004.png" class="card-img-top" alt="Charmander">
+                    <div class="card-body">
+                        <p class="card-text">N.°004</p>  
+                      <h5 class="card-title">Charmander</h5>
+                      <span class="badge rounded-pill naranja">Fuego</span>
+                      <br>
+                      <a class="btn btn-primary mt-2" href="./pages/error404.html">Ver más</a>
+                    </div>  
+                </article> 
+            </aside>            <aside class="column-md-6 col-lg-3 mb-3">
+                <article class="card">
+                    <img src="./img/005.png" class="card-img-top" alt="Charmeleon">
+                    <div class="card-body">
+                        <p class="card-text">N.°005</p>  
+                      <h5 class="card-title">Charmeleon</h5>
+                      <span class="badge rounded-pill naranja">Fuego</span>
+                      <br>
+                      <a class="btn btn-primary mt-2" href="./pages/error404.html">Ver más</a>
+                    </div>
+                </article> 
+            </aside>            <aside class="column-md-6 col-lg-3 mb-3">
+                <article class="card">
+                    <img src="./img/006.png" class="card-img-top" alt="Charizard">
+                    <div class="card-body">
+                        <p class="card-text">N.°006</p>  
+                      <h5 class="card-title">Charizard</h5>
+                      <span class="badge rounded-pill naranja">Fuego</span>
+                      <span class="badge rounded-pill volador">Volador</span>
+                      <br>
+                      <a class="btn btn-primary mt-2" href="./pages/error404.html">Ver más</a>
+                    </div>  
+                </article> 
+            </aside>            
+            <aside class="column-md-6 col-lg-3 mb-3">
+                <article class="card">
+                    <img src="./img/007.png" class="card-img-top" alt="Squirtle">
+                    <div class="card-body">
+                        <p class="card-text">N.°007</p>  
+                      <h5 class="card-title">Squirtle</h5>
+                      <span class="badge rounded-pill text-bg-primary">Agua</span>
+                      <br>
+                      <a class="btn btn-primary mt-2" href="./pages/error404.html">Ver más</a>
+                    </div>  
+                </article> 
+            </aside>            
+            <aside class="column-md-6 col-lg-3 mb-3">
+                <article class="card">
+                    <img src="./img/008.png" class="card-img-top" alt="Wartortle">
+                    <div class="card-body">
+                        <p class="card-text">N.°008</p>  
+                      <h5 class="card-title">Wartortle</h5>
+                      <span class="badge rounded-pill text-bg-primary">Agua</span>
+                      <br>
+                      <a class="btn btn-primary mt-2" href="./pages/error404.html">Ver más</a>
+                    </div>  
+                </article> 
+            </aside>            
+            <aside class="column-md-6 col-lg-3 mb-3">
+                <article class="card">
+                    <img src="./img/009.png" class="card-img-top" alt="Blastoise">
+                    <div class="card-body">
+                        <p class="card-text">N.°009</p>  
+                      <h5 class="card-title">Blastoise</h5>
+                      <span class="badge rounded-pill text-bg-primary">Agua</span>
+                      <br>
+                      <a class="btn btn-primary mt-2" href="./pages/error404.html">Ver más</a>
+                    </div>  
+                </article> 
+            </aside>            
+            <aside class="column-md-6 col-lg-3 mb-3">
+                <article class="card">
+                    <img src="./img/010.png" class="card-img-top" alt="Caterpie">
+                    <div class="card-body">
+                        <p class="card-text">N.°010</p>  
+                      <h5 class="card-title">Caterpie</h5>
+                      <span class="badge rounded-pill text-bg-success">Bicho</span>
+                      <br>
+                      <a class="btn btn-primary mt-2" href="./pages/error404.html">Ver más</a>
+                    </div>  
+                </article> 
+            </aside>            
+            <aside class="column-md-6 col-lg-3 mb-3">
+                <article class="card">
+                    <img src="./img/011.png" class="card-img-top" alt="Metapod">
+                    <div class="card-body">
+                        <p class="card-text">N.°011</p>  
+                      <h5 class="card-title">Metapod</h5>
+                      <span class="badge rounded-pill text-bg-success">Bicho</span>
+                      <br>
+                      <a class="btn btn-primary mt-2" href="./pages/error404.html">Ver más</a>
+                    </div>  
+                </article> 
+            </aside>            
+            <aside class="column-md-6 col-lg-3 mb-3">
+                <article class="card">
+                    <img src="./img/012.png" class="card-img-top" alt="Butterfree">
+                    <div class="card-body">
+                        <p class="card-text">N.°012</p>  
+                      <h5 class="card-title">Butterfree</h5>
+                      <span class="badge rounded-pill text-bg-success">Bicho</span>
+                      <span class="badge rounded-pill volador">Volador</span>
+                      <br>
+                      <button class="btn btn-primary mt-2" data-bs-toggle="modal" data-bs-target="#modalProducto">Ver más</button>
+                    </div>  
+                </article> 
+            </aside>
+        </section>
+        <nav aria-label="Navegacion entre las páginas de pokemones">
+            <ul class="pagination justify-content-center bg-mirage">
+              <li class="page-item">
+                <a class="page-link disabled" href="">Atras</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link active" href="">1</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="">2</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="">3</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="./pages/error404.html">Siguiente</a>
+              </li>
+            </ul>
+        </nav>
+        <a href="./pages/detalle.html">¡Llevame a un pokemon aleatorio!</a>
+    </main>
+    <footer>
+        <section class="bg-dark p-3 text-center text-light">
+          <p> &#169Todos los derechos reservados</p>
+          <a class="btn btn-outline-light " href="./pages/nosotros.html">Sobre nosotros</a>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </body>
     <script src="/js/bootstrap.min.js"></script>
 </body>
 </html>

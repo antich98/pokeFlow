@@ -1,7 +1,56 @@
+.banner{
+        height: 400px;
+        object-fit: cover;
+    }
 *{
     margin: 0;
     padding: 0;
 }
+.sizeImg-evolucion{
+    width: 180px;
+    height: 180px;
+}
+/* Cards de página principal */
+.morado{
+    background-color: blueviolet;
+}
+.naranja{
+    background-color: orange;
+}
+.volador{
+    background-color:rgba(211, 173, 116, 0.9);
+}
+
+.navbar-nav > li > .dropdown-menu {
+    background-color: #dc3545;
+}
+
+.navbar-nav > li > .dropdown-menu > li > .dropdown-item:hover{
+    background-color: #c52e3d;
+}
+
+.bg-error404{
+    background-image: url(../img/error.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    background-color: #dc3545;
+}
+
+.navbar-nav > li > .dropdown-menu > li > .dropdown-item:hover{
+    background-color: #c52e3d;
+}
+
+@media all and (min-width:768px){
+    .sizeImg-evolucion{
+        width: 100px;
+        height: 100px;
+    }
+=======
 .sobrenosotros{
     object-fit:cover;
     width: 100%;
