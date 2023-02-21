@@ -1,6 +1,24 @@
+.banner{
+        height: 400px;
+        object-fit: cover;
+    }
+*{
+    margin: 0;
+    padding: 0;
+}
 .sizeImg-evolucion{
     width: 180px;
     height: 180px;
+}
+/* Cards de página principal */
+.morado{
+    background-color: blueviolet;
+}
+.naranja{
+    background-color: orange;
+}
+.volador{
+    background-color:rgba(211, 173, 116, 0.9);
 }
 
 .navbar-nav > li > .dropdown-menu {
