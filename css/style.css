@@ -50,4 +50,29 @@
         width: 100px;
         height: 100px;
     }
+=======
+.sobrenosotros{
+    object-fit:cover;
+    width: 100%;
+    height: 400px;
+}
+.posicionar{
+   position: absolute;
+   top: 5rem;
+  color: rgb(247, 247, 247);
+ left: 3.5em;
+ background: rgba(255, 255, 255, 0.219);
+ padding: 10px;
+}
+
+
+.img{
+    width: 100%;
+}
+.estilos{
+    background-color: rgba(0, 0, 0, 0.096);
+    
+}
+article img{
+    width: 100%;
 }

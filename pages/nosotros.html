@@ -12,37 +12,86 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>pokeFlow</title>
 </head>
-<body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
-    <div class="container">
-      <a class="navbar-brand" href="../index.html">Pokedex</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse ps-lg-3" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Categorías
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item text-light" href="../pages/error404.html">Primera Generación</a></li>
-              <li><a class="dropdown-item text-light" href="../pages/error404.html">Segunda Generación</a></li>
-              <li><a class="dropdown-item text-light" href="../pages/error404.html">Tercera Generación</a></li>
-              <li><a class="dropdown-item text-light" href="../pages/error404.html">Cuarta Generación</a></li>
-            </ul>
-          </li>
-        </ul>
-        <form class="d-flex" role="search" action="../pages/error404.html">
-            <input class="form-control me-2" type="search" placeholder="Buscar un pokémon" aria-label="Search" maxlength="25">
-            <button class="btn btn-outline-light" type="submit"><i class="bi bi-search"></i></button>
-        </form>
-      </div>
-    </div>
-  </nav>
+  <body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html">Pokedex</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ps-lg-3" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Categorías
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item text-light" href="../pages/error404.html">Primera Generación</a></li>
+                <li><a class="dropdown-item text-light" href="../pages/error404.html">Segunda Generación</a></li>
+                <li><a class="dropdown-item text-light" href="../pages/error404.html">Tercera Generación</a></li>
+                <li><a class="dropdown-item text-light" href="../pages/error404.html">Cuarta Generación</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search" action="../pages/error404.html">
+              <input class="form-control me-2" type="search" placeholder="Buscar un pokémon" aria-label="Search" maxlength="25">
+              <button class="btn btn-outline-light" type="submit"><i class="bi bi-search"></i></button>
+          </form>
+        </div>
+     </div>
+    </nav>
+  </header>
+    <main>
+      <section>
+        <h1 class="posicionar">Quienes Somos</h1>
+        <img src="../img/colores.jpg" alt="colores" class="sobrenosotros" />
+        <article class="container">
+          <h2 class="text-center mt-4 estilos">Nuestro Proposito</h2>
+          <p class="mt-2">
+            Nuestro proposito es crear la pagina de 
+            pokedex definitiva
+          </p>
+        </article>
+        <h2 class="text-center estilos container">Nuestro Equipo</h2>
+        <section class="row">
+          <h4 class="text-center">4 integrantes del top 5 mejores desarrolladores habla hispana</h4>
+          <article class="col-md-3">
+            <img
+              src="../img/santiagoAntichAvatar.svg"
+              alt="avatar de santiago"
+            />
+            <h5>Santi Antich</h5>
+          </article>
+          <article class="col-md-3">
+            <img src="../img/diegoVacaAvatar.svg" alt="avatar de diego" />
+            <h5>Diego Vaca</h5>
+          </article>
+          <article class="col-md-3">
+            <img
+              src="../img/AvatarMaker (2).svg"
+              alt="avatar de Facundo carabajal"
+            />
+            <h5>Facundo Carabajal</h5>
+          </article>
+          <article class="col-md-3">
+            <img
+              src="../img/AvatarMaker (1).svg"
+              alt="avatar de Facundo cajal"
+            />
+            <h5>Facundo Cajal</h5>
+          </article>
+        </section>
+      </section>
+    </main>
+  </body>
+  <footer>
+        <section class="bg-dark p-3 text-center text-light">
+          <p> &#169Todos los derechos reservados</p>
+        </section>
+    </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-</body>
 </html>
